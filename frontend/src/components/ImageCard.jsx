@@ -16,7 +16,7 @@ export default function ImageCard({ imageUrl, title, author }) {
 }
 
 ImageCard.propTypes = {
-  imageUrl: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired,
+  imageUrl: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+  title: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+  author: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
