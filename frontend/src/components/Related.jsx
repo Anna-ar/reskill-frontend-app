@@ -44,16 +44,10 @@ export default function Related() {
                 {combinedData.length > 0 ? (
                     combinedData.map((item) => (
                         <div key={item.id} className="related-post">
-                        <ImageCard 
-                            imageUrl={item.imageUrl} 
-                            title={
-                                <Link to={`/post/${item.id}`} className="text-indigo-400 hover:underline">
-                                    {item.title}
-                                </Link>
-                            } 
-                            author={item.author} 
-                        />
-                    </div>
+                        <ImageCard imageUrl={item.imageUrl} 
+                                   title={<Link to={`/post/${item.id}`} className="text-indigo-400 hover:underline">{item.title}</Link> } 
+                                   author={item.author} />
+                        </div>
                     ))
                 ) : (
                     <p>Loading related articles...</p>

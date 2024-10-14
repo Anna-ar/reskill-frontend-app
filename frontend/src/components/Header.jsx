@@ -8,21 +8,21 @@ export default function Header(){
 
         <div className='flex space-x-4'>
           <div className='group'>
-            <a href='#'>Page</a>
-            <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div>
+          <Link to="/post/20" className='hover:text-indigo-400' >About us</Link>
+            <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100 px-2'></div>
           </div>
 
           <div className='group'>
-            <a href='#'>Page</a>
-            <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div>
+          <Link to="/post/15" className='hover:text-indigo-400' >Contact us</Link>
+            <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100 px-2'></div>
           </div>
 
           <div className='group'>
-            <a href='#'>Page</a>
-            <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div>
+            <Link to="/post/10" className='hover:text-indigo-400' >Location</Link>
+            <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100 px-2'></div>
           </div>
 
-          <Link to="/" className='bg-black text-white py-2 px-4 rounded hover:bg-indigo-400 transition duration-200'>Button</Link>
+          <Link to="/" className='bg-black text-white py-2 px-4 rounded hover:bg-indigo-400 hover:text-white transition duration-200'>Home</Link>
         </div>
       </header>
     </div>

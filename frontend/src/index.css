@@ -21,9 +21,6 @@ a {
   font-weight: 500;
   color: black;
   text-decoration: inherit;
-
-  padding-left: 0.5rem /* 16px */;
-  padding-right: 0.5rem /* 16px */;
 }
 a:hover {
   color: #818cf8;
@@ -66,6 +63,7 @@ button:focus-visible {
 .group {
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 6px;
 }
 
 .footertopic {
