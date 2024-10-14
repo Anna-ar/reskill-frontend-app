@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 export default function Header(){
    return(
     <>
@@ -22,9 +22,7 @@ export default function Header(){
             <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div>
           </div>
 
-          <button className='bg-black text-white py-2 px-4 rounded hover:bg-indigo-400 transition duration-200'>
-              Button
-            </button>
+          <Link to="/" className='bg-black text-white py-2 px-4 rounded hover:bg-indigo-400 transition duration-200'>Button</Link>
         </div>
       </header>
     </div>
