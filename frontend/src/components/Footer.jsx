@@ -1,17 +1,14 @@
 
-
-
 export default function Footer(){
     return(
         <>
         <hr className="border-gray-300 w-full"></hr>
         <footer className="relative bg-white pt-10 pb-6">
       <div className="container mx-auto px-4">
-        <div className="flex flex-wrap text-left lg:text-left">
+        <div className="flex flex-wrap text-center lg:text-left">
           <div className="w-full lg:w-6/12 px-4">
-            <h4 className="text-2xl font-semibold text-blueGray-700 pt-1">Site Name</h4>
-            
-            <div className="flex mt-6 lg:mb-0 mb-6">
+            <h4 className="text-2xl font-semibold text-blueGray-700 pt-1">Site Name</h4>          
+            <div className="flex mt-6 justify-center lg:justify-start lg:mb-0 mb-14">
               <button onClick={() => window.location.href = 'https://www.facebook.com'} className="h-10 w-10 flex items-center justify-center rounded-full  mr-4 mt-16">
                 <img src="/images/fb.png" alt="fb logo" className="w-10 h-10" />
               </button>
@@ -26,7 +23,6 @@ export default function Footer(){
               </button>
             </div>
           </div>
-
           <div className="w-full lg:w-6/12 px-4">
             <div className="flex flex-wrap items-top mb-6">
               <div className="w-full lg:w-4/12 px-4 ml-auto">
@@ -38,7 +34,6 @@ export default function Footer(){
                   <li><a className="footertopic block text-sm" href="/post/4">Post 4</a></li>
                 </ul>
               </div>
-
               <div className="w-full lg:w-4/12 px-4">
                 <span className="block uppercase  text-sm font-semibold mb-2 pl-2 pb-2">Topic</span>
                 <ul className="list-unstyled px-2">
@@ -48,7 +43,6 @@ export default function Footer(){
                   <li><a className="footertopic block text-sm" href="/post/8">Post 8</a></li>
                 </ul>
               </div>
-
               <div className="w-full lg:w-4/12 px-4">
                 <span className="block uppercase text-sm font-semibold mb-2 pl-2 pb-2">Topic</span>
                 <ul className="list-unstyled px-2">
@@ -60,12 +54,9 @@ export default function Footer(){
               </div>
             </div>
           </div>
-        </div>
-
-        
+        </div>   
       </div>
     </footer>
         </>
     )
-
 }
