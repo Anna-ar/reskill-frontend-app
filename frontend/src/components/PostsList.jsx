@@ -37,7 +37,7 @@ export default function PostsList(){
         <>
             <div className='h-auto min-h-[50vh] bg-white p-5 px-14'>
                 <h1 className='mb-5 text-4xl md:text-5xl font-bold text-black'>Posts List</h1>
-                <p className='mb-14 text-gray-500'>Subheading that sets up context, shares more info about the <br /> author, or generally gets people psyched to keep reading</p>
+                <p className='w-1/2 mb-14 text-gray-500'>{posts[20]?.body}</p>
                 <img src={photos[0]?.url} alt={photos[0]?.title} className='w-full h-auto mb-4 mt-4 rounded' />
                 <p className='w-3/5 mx-auto text-left m-16'>{posts[0]?.body}
                 </p>
