@@ -2,7 +2,7 @@
 export default function Footer(){
     return(
         <>
-        <hr className="border-gray-300 w-full"></hr>
+        <hr className="border-gray-300 mx-10 "></hr>
         <footer className="relative bg-white pt-10 pb-6">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap text-center lg:text-left">
